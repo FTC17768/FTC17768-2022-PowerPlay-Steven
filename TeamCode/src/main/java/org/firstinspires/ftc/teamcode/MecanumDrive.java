@@ -58,7 +58,7 @@ public class MecanumDrive extends OpMode
     private DcMotor lift;
     private Servo lFinger;
     private Servo rFinger;
-    private double powerMod = 0.6;
+    private double powerMod = 1;
 
 
     /*double lFingerPos = 1.4;
