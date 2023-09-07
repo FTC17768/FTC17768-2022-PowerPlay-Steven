@@ -121,7 +121,7 @@ public class MecanumDrive extends OpMode
         frontLeftMotor.setPower(frontLeftPower*powerMod);
         backLeftMotor.setPower(backLeftPower*powerMod);
         frontRightMotor.setPower(frontRightPower*powerMod);
-        backRightMotor.setPower(backRightPower*powerMod);
+        backRightMotor.setPower(backRightPower*powerMod); 
 
         if (lTrigger>0.1) { //Lefty-loosey
             lFinger.setPosition(0.25);
